@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    display: block;
+}
+
+div {
+    width: 550px;
+    height: 550px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2px;
+    margin-left: 300px;
+    background-color: blue;
+}
