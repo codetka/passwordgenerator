@@ -3,14 +3,29 @@
 <html lang="en">
     <head>
         <title>Password Generator</title>
-        <link rel="stylesheet" href="index.html" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     
     <body>
-        <script src="script.js" type="javascript"></script>
-
+        
         <div id="back">
-            <h1>Password Generator</h1>
+            <h1>Generate <br> <span style="color: #55F991;">a random password</span></h1>
+
+            <p>Never use an insecure password again</p>
+
+            <input type="number" id="length-el" placeholder="Password length (8 - 16)" onchange="start()">
+
+            <button onclick="start()">Generate Passwords</button>
+
+            <div id="line"></div>
+        <div class="wrap">
+            <input type="text" placeholder="..." id="passone-el">
+            <input type="text" placeholder="..." id="passtwo-el">
+            <input type="text" placeholder="..." id="passthree-el">
+            <input type="text" placeholder="..." id="passfour-el">
+        </div>  
+        <script type="text/javascript" src="script.js"></script>
+            
         </div>
     </body>
 </html>
