@@ -79,3 +79,19 @@ let passwordFour = "";
      
 } 
 
+passoneEl.addEventListener("click",  function copyText(){
+    navigator.clipboard.writeText(passoneEl.value);
+    alert("Password Copied!");
+})
+passtwoEl.addEventListener("click",  function copyText(){
+    navigator.clipboard.writeText(passtwoEl.value);
+    alert("Password Copied!");
+})
+passthreeEl.addEventListener("click",  function copyText(){
+    navigator.clipboard.writeText(passthreeEl.value);
+    alert("Password Copied!");
+})
+passfourEl.addEventListener("click",  function copyText(){
+    navigator.clipboard.writeText(passfourEl.value);
+    alert("Password Copied!");
+})
